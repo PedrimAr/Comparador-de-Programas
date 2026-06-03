@@ -1,2 +1,12 @@
-if (a == b) print(a);
-while(b) print(b);
+int main() {
+    int n = 5;
+    int fat = 1;
+    
+    while (n > 0) {
+        fat = fat * n;
+        n = n - 1;
+    }
+    
+    print(fat);
+    return 0;
+}

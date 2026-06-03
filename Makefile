@@ -2,7 +2,7 @@
 all:
 	ghc -O2 -o similaridade main.hs
 
-# Alvo para executar (depende do 'all' para garantir que está compilado)
+# Alvo para executar
 run: all
 	./similaridade res.txt sep.txt c1.txt c2.txt
 
